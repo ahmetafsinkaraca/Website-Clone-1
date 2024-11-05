@@ -1,0 +1,167 @@
+/* Bu kısımda topbar işlemi yapılıyor */
+@media (min-width: 1600px) {
+    .container-bottom {
+        padding-left: 18%;
+        padding-right: 18%;
+        height: 100px;
+    }
+}
+@media (max-width: 1599px) {
+    .container-bottom {
+        padding-left: 4%;
+        padding-right: 4%;
+        height: 100px;
+        max-width: auto;
+    }
+}
+
+@media (max-width: 1000px) {
+    .navbar-topbar {
+        display: none;
+    }
+}
+
+  /* Bu kısımda bottombar işlemleri yapılmaktadır */
+  @media (max-width: 1000px) {
+    #navbarNavDropdown {
+        display: none;
+    }
+}
+
+  /* Bu kısımda bottombar çizgi işlemleri yapılmakta */
+  @media (max-width: 1000px) {
+    .saglik-bakanligi-logo {
+        display: none;
+    }
+}
+
+@media (min-width: 1000px) {
+    .btn-bottombar {
+        display: none;
+    }
+}
+
+@media (min-width: 1000px) {
+    .dropdown-language {
+        display: none;
+    }
+}
+  
+  /* Bu kısımda footer içeriği yapıldı  */
+  @media (max-width: 1000px) {
+      .footer-big {
+          display: none;
+      }
+  }
+
+  @media (min-width:999px) {
+      .footer-small {
+          display: none;
+      }
+  }
+
+
+  /* pagination kısmı */
+  @media (min-width:1201px) {
+      .pagination-basic-small {
+          display: none;
+      }
+  }
+
+  @media (max-width:1200px) {
+    .pagination-basic {
+        display: none;
+    }
+}
+
+
+  /* Tüm haberler kısmı */
+  @media (max-width: 1000px) {
+      .tum-haberler-sayfasi-icerik {
+          max-width: 300px !important;
+      }
+  }
+
+  @media (max-width: 767px) {
+      .tum-haberler-sayfasi-icerik {
+          max-width: 430px !important;
+      }
+  }
+
+
+  /* Basında TÜSEB kısmı  */
+  @media (max-width: 1000px) {
+      .tum-basin-sayfasi-icerik {
+          max-width: 310px !important;
+      }
+  }
+
+  @media (max-width: 767px) {
+    .tum-basin-sayfasi-icerik {
+        max-width: 400px !important;
+    }
+}
+
+
+/* Özel kalem müdürlüğü kısmı */
+@media (max-width: 400px) {
+    .ozel-kalem-supervisor-sub {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .ozel-kalem-text {
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .ozel-kalem-text {
+        align-items: center;
+    }
+}
+
+
+
+/* Üst Yönetim kısmı */
+@media (max-width: 450px) {
+    .ust-yonetim-sema {
+    padding: 1rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .ust-yonetim-sema-sub {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 450px) {
+    .ust-yonetim-sema-icerik {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+
+
+/* Yönetim kurulu kısmı */
+@media  (max-width: 780px) {
+    .yonetim-kurulu-right {
+        display: none;
+    }
+}
+
+@media  (min-width: 779px) {
+    .yonetim-kurulu-right-small {
+        display: none;
+    }
+}
