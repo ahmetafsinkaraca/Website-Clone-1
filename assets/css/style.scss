@@ -25,7 +25,7 @@
 .topbar-color{
     background-color:#0d6efd;
 }
-.text-turkovac{
+.text-RANDOM{
     font-size: 14.5px; 
     font-weight: 400;
     color: white !important;
@@ -148,7 +148,7 @@
 .bi-list{
     font-size: 28px;
 }
-.saglik-bakanligi-logo{
+.header-right-detay-logo{
     width: 117px; 
     height: 67px;
 } 
@@ -641,7 +641,7 @@ h3,h5 {
     padding-top: 30px; 
     padding-bottom: 20px;
 }
-.tuseb-logo-sticky{
+.RANDOM-logo-sticky{
     margin-bottom: 30px;
 }
 .copyright-part{
@@ -704,7 +704,7 @@ h3,h5 {
     justify-content: center; 
     padding-top: 10px;
 }
-.tuseb-logo-part{
+.RANDOM-logo-part{
     display: flex;
     align-items: center; 
     justify-content: center;
@@ -1062,8 +1062,8 @@ h3,h5 {
 
 
 
-/* Bu kısımda basın içeriği yapılmakta */
-.basinda-tuseb{
+/* Bu kısımda RANDOM içeriği yapılmakta */
+.basinda-RANDOM{
     min-height: 1000px;
 }
 .card-content-basin {
@@ -1098,24 +1098,24 @@ h3,h5 {
     min-height: 150px;
     max-height: 150px;
 }
-.basinda-tuseb-card {
+.basinda-RANDOM-card {
     position: relative;
 }
-.basinda-tuseb-card-img {
+.basinda-RANDOM-card-img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding: 0px;
     height: 225px;
     width: 100%;
 }
-.basinda-tuseb-etiket {
+.basinda-RANDOM-etiket {
     position: absolute;
     bottom: 12px;
     left: 8px;
     background-color: rgb(13, 110, 253);
     border-radius: 5px;
 }
-.basinda-tuseb-etiket-dot {
+.basinda-RANDOM-etiket-dot {
     position: absolute;
     bottom: 4px;
     left: 8px;
@@ -1123,12 +1123,12 @@ h3,h5 {
     padding: 7px;
     border-radius: 100%;
 }
-.basinda-tuseb-etiket-text {
+.basinda-RANDOM-etiket-text {
     color: white;
     margin-left: 40px;
     font-size: 14px;margin-right: 10px;
     }
-.basinda-tuseb-bottom{
+.basinda-RANDOM-bottom{
     background-color: #F6F6F6; 
     z-index: 900; 
     border-bottom-left-radius: 10px; 
@@ -1138,11 +1138,11 @@ h3,h5 {
     align-items: center;
     padding: 0.5rem;
 }
-.basinda-tuseb-tarih{
+.basinda-RANDOM-tarih{
     margin-left: 10px; 
     margin-right: 10px;
 }
-.basinda-tuseb-bottom-sub{
+.basinda-RANDOM-bottom-sub{
     margin-left: 10px; 
     margin-right: 20px;
 }
@@ -1169,6 +1169,10 @@ h3,h5 {
     color: black;
     font-size: 1.3rem;
     font-weight: 600;
+}
+.haberlistelement{
+    text-decoration: none;
+    color: inherit;
 }
 .list-unstyled-haberler li {
     margin-bottom: 15px;
@@ -1299,7 +1303,7 @@ h3,h5 {
     }
 
 
-/* Bu kısımda kurumsal yapılmakta */
+/* Bu kısımda RANDOM yapılmakta */
 .teskilat-yapisi-birim{
     min-height: 1100px; 
 }
@@ -1309,7 +1313,7 @@ h3,h5 {
 .accordion-button-teskilat-yapisi{
     background-color:white !important
 }
-.accordion-item-kurumsal{
+.accordion-item-RANDOM{
     background-color:white !important
 }
 .ozel-kalem-supervisor{
@@ -1347,7 +1351,7 @@ h3,h5 {
 .ozel-kalem-personnel-title{
     text-align: center;
 }
-.teskilat-yapisi-ekibimiz-title{
+.teskilat-yapisi-RANDOM-title{
     display: flex;
     align-items: center;
     font-weight: bold; 
@@ -1375,7 +1379,7 @@ h3,h5 {
 
 
 
-/* Bu kısımda üst yönetim yapılmakta */
+/* Bu kısımda RANDOM yapılmakta */
 .ust-yonetim{
     min-height: 1100px;
 }
@@ -1522,7 +1526,7 @@ h3,h5 {
 
 
 
-/* Bu kısımda yönetim kurulu yapılmakta */
+/* Bu kısımda RANDOM yapılmakta */
 .yonetim-kurulu{
     min-height: 1000px;
 }
@@ -1584,12 +1588,12 @@ h3,h5 {
 
 
 
-/* kanunlar kısmı düzelt */
-.kanunlar-genel{
+/* RANDOM kısmı düzelt */
+.RANDOM-genel{
     margin-bottom: 40px; 
     box-shadow: 0 5px 25px rgba(1, 1, 1, 0.2);
 }
-.kanunlar-content{
+.RANDOM-content{
     display: flex;
     justify-content: space-between;
     align-items: start;
@@ -1597,16 +1601,16 @@ h3,h5 {
     color: inherit;
     padding: 1rem;
 }
-.kanunlar-content-sub{
+.RANDOM-content-sub{
     display: flex;
     position: relative;
     align-items: center;
     gap: 0.8rem;
 }
-.kanunlar-icon{
+.RANDOM-icon{
     font-size: 22px;
 }
-.mevzuat-kanunlar{
+.RANDOM-RANDOM{
     min-height: 1100px;
 }
 .selected-item {

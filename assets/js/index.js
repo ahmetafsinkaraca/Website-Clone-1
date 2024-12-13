@@ -344,7 +344,7 @@ function initPaginationsList(limitPerPage) {
 
 
 
-/* Burada kurumsal listesi aktif kontrolü yapılmakta */
+/* Burada RANDOM listesi aktif kontrolü yapılmakta */
 document.addEventListener('DOMContentLoaded', function () {
     // URL'nin son kısmını alın
     const currentPath = window.location.pathname;
@@ -355,7 +355,7 @@ document.addEventListener('DOMContentLoaded', function () {
         case currentPath.includes('akademik-ve-bilimsel-etkinlikler'):
         case currentPath.includes('roportaj-ve-yayinlar'):
         case currentPath.includes('baskan-fotograflari'):
-            openAccordion('flush-collapseTusebBaskani');
+            openAccordion('flush-collapseRANDOMBaskani');
             break;
         case currentPath.includes('ozel-kalem-mudurlugu'):
         case currentPath.includes('genel-sekreterlik'):
@@ -365,24 +365,24 @@ document.addEventListener('DOMContentLoaded', function () {
         case currentPath.includes('baskan-yardimcisi-3'):
             openAccordion('flush-collapseTeskilatYapisi');
             break;
-        case currentPath.includes('kanunlar'):
+        case currentPath.includes('RANDOM'):
         case currentPath.includes('cumhurbaskanligi-kararnameleri'):
         case currentPath.includes('yonetmelikler'):
         case currentPath.includes('usul-ve-esaslar'):
-        case currentPath.includes('genelgeler'):
+        case currentPath.includes('RANDOM'):
         case currentPath.includes('yonergeler'):
-            openAccordion('flush-collapseMevzuat');
+            openAccordion('flush-collapseRANDOM');
             break;
-        case currentPath.includes('kanunlar'):
+        case currentPath.includes('RANDOM'):
         case currentPath.includes('cumhurbaskanligi-kararnameleri'):
         case currentPath.includes('yonetmelikler'):
         case currentPath.includes('usul-ve-esaslar'):
-            openAccordion('flush-collapseMevzuat');
+            openAccordion('flush-collapseRANDOM');
             break;
-        case currentPath.includes('tuseb-dergisi'):
+        case currentPath.includes('RANDOM-dergisi'):
         case currentPath.includes('analizler-ve-raporlar'):
         case currentPath.includes('kitaplar-ve-kitap-bolumleri'):
-        case currentPath.includes('rehberler'):
+        case currentPath.includes('RANDOM '):
         case currentPath.includes('roportajlar'):
             openAccordion('flush-collapseYayinlar');
             break;
@@ -458,26 +458,26 @@ document.addEventListener('DOMContentLoaded', function () {
             highlightSelectedItem(lastPart);
             break;
         
-        case currentPath.includes('kanunlar'):
+        case currentPath.includes('RANDOM'):
         case currentPath.includes('cumhurbaskanligi-kararnameleri'):
         case currentPath.includes('yonetmelikler'):
         case currentPath.includes('usul-ve-esaslar'):
-        case currentPath.includes('genelgeler'):
+        case currentPath.includes('RANDOM'):
         case currentPath.includes('yonergeler'):
             highlightSelectedItem(lastPart);
             break;
 
-        case currentPath.includes('kanunlar'):
+        case currentPath.includes('RANDOM'):
         case currentPath.includes('cumhurbaskanligi-kararnameleri'):
         case currentPath.includes('yonetmelikler'):
         case currentPath.includes('usul-ve-esaslar'):
             highlightSelectedItem(lastPart);
             break;
 
-        case currentPath.includes('tuseb-dergisi'):
+        case currentPath.includes('RANDOM-dergisi'):
         case currentPath.includes('analizler-ve-raporlar'):
         case currentPath.includes('kitaplar-ve-kitap-bolumleri'):
-        case currentPath.includes('rehberler'):
+        case currentPath.includes('RANDOM '):
         case currentPath.includes('roportajlar'):
             highlightSelectedItem(lastPart);
             break;

@@ -30,7 +30,7 @@
 
   /* Bu kısımda bottombar çizgi işlemleri yapılmakta */
   @media (max-width: 1000px) {
-    .saglik-bakanligi-logo {
+    .header-right-detay-logo {
         display: none;
     }
 }
@@ -89,7 +89,7 @@
   }
 
 
-  /* Basında TÜSEB kısmı  */
+  /* RANDOM kısmı  */
   @media (max-width: 1000px) {
       .tum-basin-sayfasi-icerik {
           max-width: 310px !important;
@@ -103,7 +103,7 @@
 }
 
 
-/* Özel kalem müdürlüğü kısmı */
+/* RANDOM  kısmı */
 @media (max-width: 400px) {
     .ozel-kalem-supervisor-sub {
         display: flex;
@@ -128,7 +128,7 @@
 
 
 
-/* Üst Yönetim kısmı */
+/* RANDOM kısmı */
 @media (max-width: 450px) {
     .ust-yonetim-sema {
     padding: 1rem;
@@ -153,7 +153,7 @@
 
 
 
-/* Yönetim kurulu kısmı */
+/* RANDOM kısmı */
 @media  (max-width: 780px) {
     .yonetim-kurulu-right {
         display: none;

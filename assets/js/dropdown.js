@@ -1,161 +1,161 @@
 var menuData = [
         {
-            text: 'Anasayfa',
+            text: 'RANDOM',
             href: '/'
         },
         {
-            text: 'Kurumsal',
+            text: 'RANDOM',
             children: [
-                { text: 'Hakkımızda', href: '#' },
-                { text: 'Yönetim Kurulu', href: '#' },
-                { text: 'Üst Yönetim', href: '#' },
+                { text: 'RANDOM', href: '#' },
+                { text: 'RANDOM', href: '#' },
+                { text: 'RANDOM', href: '#' },
                 {
-                    text: 'Tüseb Başkanı',
+                    text: 'RANDOM ',
                     children: [
-                        { text: 'Özgeçmiş', href: '#' },
-                        { text: 'Akademik ve Bilimsel Etkinlikler', href: '#' },
-                        { text: 'Röportaj ve Yayınlar', href: '#' },
-                        { text: 'Başkan Fotoğrafları', href: '#' }
+                        { text: 'RANDOM', href: '#' },
+                        { text: 'RANDOM ', href: '#' },
+                        { text: 'RANDOM ', href: '#' },
+                        { text: 'RANDOM ', href: '#' }
                     ]
                 },
                 {
-                    text: 'Teşkilat Yapısı',
+                    text: 'RANDOM',
                     children: [
-                        { text: 'Özel Kalem Müdürlüğü', href: '#' },
+                        { text: 'RANDOM ', href: '#' },
                         {
-                            text: 'Genel Sekreterlik',
+                            text: 'RANDOM',
                             children: [
-                                { text: 'Dış İlişkiler Daire Başkanlığı', href: '#' },
-                                { text: 'Hukuk Hizmetleri Daire Başkanlığı', href: '#' },
+                                { text: 'RANDOM', href: '#' },
+                                { text: 'RANDOM', href: '#' },
                                 {
-                                    text: 'Strateji Geliştirme Daire Başkanlığı',
+                                    text: 'RANDOM',
                                     children: [
-                                        { text: 'Muhasebe ve Kesin Hesap Birimi', href: '#' },
-                                        { text: 'İç Kontrol Birimi', href: '#' },
-                                        { text: 'Bütçe ve Performans Birimi', href: '#' },
-                                        { text: 'Strateji Yönetim ve Planlama Birimi', href: '#' }
+                                        { text: 'RANDOM', href: '#' },
+                                        { text: 'RANDOM', href: '#' },
+                                        { text: 'RANDOM', href: '#' },
+                                        { text: 'RANDOM', href: '#' }
                                     ]
                                 },
                                 {
-                                    text: 'Yönetim Hizmetleri Daire Başkanlığı',
+                                    text: 'RANDOM',
                                     children: [
-                                        { text: 'Bilgi İşlem Birimi', href: '#' },
-                                        { text: 'İnsan Kaynakları Birimi', href: '#' },
-                                        { text: 'Destek Hizmetleri Birimi', href: '#' },
-                                        { text: 'İdari ve Mali İşler Birimi', href: '#' }
+                                        { text: 'RANDOM', href: '#' },
+                                        { text: 'RANDOM', href: '#' },
+                                        { text: 'RANDOM', href: '#' },
+                                        { text: 'RANDOM', href: '#' }
                                     ]
                                 }
                             ]
                         },
                         {
-                            text: 'Başkan Yardımcısı 1',
+                            text: 'RANDOM ',
                             children: [
-                                { text: 'Sağlık Endüstrileri Yerlileşme ve Proje Geliştirme Daire Başkanlığı', href: '#' },
-                                { text: 'Teknoloji Transfer Ofisi', href: '#' }
+                                { text: 'RANDOM', href: '#' },
+                                { text: 'RANDOM', href: '#' }
                             ]
                         },
                         {
-                            text: 'Başkan Yardımcısı 2',
+                            text: 'RANDOM ',
                             children: [
-                                { text: 'Proje Yönetimi ve Destek Daire Başkanlığı', href: '#' },
-                                { text: 'Proje Destek Politikaları Birimi', href: '#' }
+                                { text: 'RANDOM', href: '#' },
+                                { text: 'RANDOM', href: '#' }
                             ]
                         },
-                        { text: 'Başkan Yardımcısı 3', href: '#' },
-                        { text: 'Enstitü Başkanlıkları', href: '#' }
+                        { text: 'RANDOM ', href: '#' },
+                        { text: 'RANDOM ', href: '#' }
                     ]
                 },
                 {
-                    text: 'Mevzuat',
+                    text: 'RANDOM',
                     children: [
-                        { text: 'Kanunlar', href: '#' },
-                        { text: 'Cumhurbaskanlığı Kararnameleri', href: '#' },
-                        { text: 'Yönetmelikler', href: '#' },
+                        { text: 'RANDOM', href: '#' },
+                        { text: 'RANDOM', href: '#' },
+                        { text: 'RANDOM', href: '#' },
                         { text: 'Usul ve Esaslar', href: '#' },
-                        { text: 'Genelgeler', href: '#' },
-                        { text: 'Yönergeler', href: '#' },
-                        { text: 'Kamu Etik Davranış Kuralları', href: '#' }
+                        { text: 'RANDOM', href: '#' },
+                        { text: 'RANDOM', href: '#' },
+                        { text: 'RANDOM ', href: '#' }
                     ]
                 },
-                { text: 'Mali Duyurular', href: '#' },
-                { text: 'Faliyet Raporları', href: '#' },
-                { text: 'Stratejik Planlar', href: '#' },
+                { text: 'RANDOM', href: '#' },
+                { text: 'RANDOM', href: '#' },
+                { text: 'RANDOM', href: '#' },
                 {
-                    text: 'İç Kontrol',
+                    text: 'RANDOM ',
                     children: [
-                        { text: 'İç Kontrol Hakkında', href: '#' },
-                        { text: 'Eylem Planları', href: '#' },
-                        { text: 'Değerlendirme Raporları', href: '#' },
-                        { text: 'İç Kontrol Dökümanları', href: '#' }
+                        { text: 'RANDOM ', href: '#' },
+                        { text: 'RANDOM', href: '#' },
+                        { text: 'RANDOM ', href: '#' },
+                        { text: 'RANDOM ', href: '#' }
                     ]
                 },
-                { text: 'Performans Programları', href: '#' },
-                { text: 'Arabuluculuk Komisyonu', href: '#' },
-                { text: 'İnsan Kaynakları', href: '#' },
+                { text: 'RANDOM', href: '#' },
+                { text: 'RANDOM', href: '#' },
+                { text: 'RANDOM', href: '#' },
                 {
-                    text: 'Yayınlar',
+                    text: 'RANDOM',
                     children: [
-                        { text: 'TÜSEB Dergisi', href: '#' },
-                        { text: 'TÜSEB 2040 Strateji ve Vizyon Çalıştayı Raporu', href: '#' },
-                        { text: 'Klinik Araştırmalar Mevcut Durum ve Öneriler Çalıştay Raporu', href: '#' },
-                        { text: 'Türk Devletleri Teşkilatı 8. Türk Tıp Dünyası Kurultayı Çalıştay Sonuç Raporu', href: '#' },
-                        { text: 'Analizler ve Raporlar', href: '#' },
-                        { text: 'Kitaplar ve Kitap Bölümleri', href: '#' },
-                        { text: 'Rehberler', href: '#' },
-                        { text: 'Röportajlar', href: '#' },
-                        { text: 'TÜSEB Geleceğin Pandemileri Sempozyumu Raporu', href: '#' },
-                        { text: '9. Türk Tıp Dünyası Kurultayı Raporu', href: '#' },
+                        { text: 'RANDOM', href: '#' },
+                        { text: 'RANDOM ', href: '#' },
+                        { text: 'RANDOM ', href: '#' },
+                        { text: 'RANDOM ', href: '#' },
+                        { text: 'RANDOM ', href: '#' },
+                        { text: 'RANDOM ', href: '#' },
+                        { text: 'RANDOM ', href: '#' },
+                        { text: 'RANDOM', href: '#' },
+                        { text: 'RANDOM ', href: '#' },
+                        { text: 'RANDOM ', href: '#' },
                         {
-                            text: 'Makaleler',
+                            text: 'RANDOM',
                             children: [
-                                { text: 'Sağlıkta Çözüm Teknolojide', href: '#' },
-                                { text: 'COVID-19’da ‘fikirden ürüne’ etkin güç: TÜSEB', href: '#' },
-                                { text: 'TÜSEB’in Biyoteknoloji Alanındaki AR-GE Faaliyet ve Destekleri', href: '#' }
+                                { text: 'RANDOM ', href: '#' },
+                                { text: 'RANDOM ', href: '#' },
+                                { text: 'RANDOM ', href: '#' }
                             ]
                         }
                     ]
                 },
-                { text: 'Teşkilat Şeması', href: '#' },
-                { text: 'Yerleşkelerimiz', href: '#' }
+                { text: 'RANDOM', href: '#' },
+                { text: 'RANDOM', href: '#' }
             ]
         },
         {
-            text: 'Enstitüler',
+            text: 'RANDOM',
             children: [
-                { text: 'Türkiye Anne Çocuk ve Ergen Sağlığı Enstitüsü', href: '#' },
-                { text: 'Türkiye Biyoteknoloji Enstitüsü', href: '#' },
-                { text: 'Türkiye Kanser Enstitüsü', href: '#' },
-                { text: 'Türkiye Halk Sağlığı ve Kronik Hastalıklar Enstitüsü', href: '#' },
-                { text: 'Türkiye Sağlık Hizmetleri Kalite ve Akreditasyon Enstitüsü', href: '#' },
-                { text: 'Türkiye Sağlık Politikaları Enstitüsü', href: '#' },
-                { text: 'Türkiye Aşı Enstitüsü', href: '#' },
-                { text: 'Türkiye Sağlık Veri Araştırmaları ve Yapay Zeka Uygulamaları Enstitüsü', href: '#' }
+                { text: 'RANDOM', href: '#' },
+                { text: 'RANDOM', href: '#' },
+                { text: 'RANDOM', href: '#' },
+                { text: 'RANDOM', href: '#' },
+                { text: 'RANDOM', href: '#' },
+                { text: 'RANDOM', href: '#' },
+                { text: 'RANDOM', href: '#' },
+                { text: 'RANDOM', href: '#' }
             ]
         },
         {
-            text: 'Merkezler',
+            text: 'RANDOM',
             children: [
-                { text: 'Türkiye Ulusal Genom Merkezi (TUGEM)', href: '#' },
-                { text: 'BİYAŞAM', href: '#' }
+                { text: 'TRANDOM', href: '#' },
+                { text: 'RANDOM', href: '#' }
             ]
         },
-        { text: 'Proje Destekleri', href: '#' },
+        { text: 'RANDOM', href: '#' },
         {
-            text: 'TÜSEB TTO',
+            text: 'RANDOM',
             children: [
-                { text: 'Girişimcilik ve İnovasyon Birimi', href: '#' },
-                { text: 'Yerlileştirme ve Ticarileştirme Birimi', href: '#' },
-                { text: 'Fikri ve Sınai Mülkiyet Hakları Birimi', href: '#' },
-                { text: 'Klinik Araştırmalar Koordinasyon Birimi', href: '#' },
-                { text: 'Teknoloji Dönüşümü Eğitim Birimi', href: '#' },
-                { text: 'Ekibimiz', href: '#' },
-                { text: 'TTO İletişim', href: '#' }
+                { text: 'RANDOM', href: '#' },
+                { text: 'RANDOM', href: '#' },
+                { text: 'RANDOM', href: '#' },
+                { text: 'RANDOM', href: '#' },
+                { text: 'RANDOM', href: '#' },
+                { text: 'RANDOM', href: '#' },
+                { text: 'RANDOM', href: '#' }
             ]
         },
         {
-            text: 'Basın',
+            text: 'RANDOM',
             children: [
-                { text: 'Basında TÜSEB', href: '#' }
+                { text: 'RANDOM', href: '#' }
             ]
         }
     ];
